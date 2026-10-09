@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b2b"><title>Escort Operations</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <aside class="sidebar"><div class="brand"><span class="mark">EO</span><div><strong>Escort Ops</strong><small>Standalone demo</small></div></div>
+    <nav id="nav"><button data-view="overview" class="active">Overview</button><button data-view="orders">Service Orders & Drafts</button><button data-view="programs">Program Register</button><button data-view="assignments">Escort Assignment</button><button data-view="duty">Vessel Duty</button><button data-view="reviews">Confirmation / Review Queue</button><button data-view="release-slips">Release Slips</button><button data-view="ghat-duty">Ghat Duty</button><button data-view="completion">Program Completion</button><button data-view="settlements">Settlement Review</button><button data-view="identity">Employee Identity</button><button data-view="vessels">Vessel Directory</button><button data-view="clients">Client Directory</button><button data-view="reports">Reports</button><button data-view="audit">Audit & Message History</button><button data-view="settings">Settings</button></nav>
+    <div class="sidebar-bottom"><label for="role">Demo role</label><select id="role"><option value="demo-ops">Operations Officer</option><option value="demo-viewer">Viewer</option><option value="demo-accountant">Accountant</option><option value="demo-admin">Admin</option><option value="demo-superadmin">Superadmin</option></select><small>All demo records are synthetic.</small></div>
+  </aside>
+  <main><header><div><p class="eyebrow">AL-RIFA'I · OPERATIONS WORKSPACE</p><h1 id="title">Overview</h1></div><span class="mode">SYNTHETIC MODE</span></header><section id="content" aria-live="polite"></section></main>
+  <dialog id="modal"><form method="dialog"><button class="close" aria-label="Close">×</button></form><div id="modal-content"></div></dialog>
+  <script src="/assets/app.js" defer></script>
+</body></html>

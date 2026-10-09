@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+data/*.sqlite3
+data/uploads/*
+!data/uploads/.gitkeep
+coverage.xml
+.pytest_cache/
+node_modules/
+dist/
